@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>01 - Conversor de Unidades</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Conversor de Unidades</h1>
+        <div class="input-group">
+            <label for="input">Digite a quantidade:</label>
+            <input type="number" name="input" id="input" placeholder="0">
+        </div>
+        <div class="input-group">
+            <label for="from">De:</label>
+            <select name="from" id="from">
+                <option value="m">Metro(s)</option>
+                <option value="km">Quilômetro(s)</option>
+                <option value="cm">Centímetro(s)</option>
+                <option value="mm">Milímetro(s)</option>
+            </select>
+        </div>
+        <div class="input-group">
+            <label for="to">Para:</label>
+            <select name="to" id="to">
+                <option value="m">Metro(s)</option>
+                <option value="km">Quilômetro(s)</option>
+                <option value="cm">Centímetro(s)</option>
+                <option value="mm">Milímetro(s)</option>
+            </select>
+        </div>
+        <button id="convert-btn">Converter</button>
+        <div class="output-group">
+            <label for="output">Resultado:</label>
+            <input type="text" id="output" readonly>
+        </div>
+        <div id="message"></div>
+    </div>
+    
+    <div class="container">
+        <h1>Conversor de Hora</h1>
+        <div class="input-group">
+            <label for="input2">Digite a hora:</label>
+            <input type="number2" name="input2" id="input2" placeholder="0">
+        </div>
+        <div class="input-group">
+            <label for="from2">De:</label>
+            <select name="from2" id="from2">
+                <option value="h">Hora</option>
+                <option value="min">Minutos</option>
+                <option value="s">Segundos</option>
+            </select>
+        </div>
+        <div class="input-group">
+            <label for="to2">Para:</label>
+            <select name="to2" id="to2">
+                <option value="h">Hora</option>
+                <option value="min">Minutos</option>
+                <option value="s">Segundos</option>
+            </select>
+        </div>
+        <button id="convert-btn2">Converter</button>
+        <div class="output-group">
+            <label for="output2">Resultado:</label>
+            <input type="text2" id="output2" readonly>
+        </div>
+        <div id="message2"></div>
+    </div>
+
+
+</body>
+</html>
